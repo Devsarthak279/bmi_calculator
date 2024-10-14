@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+.container{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: block;
+}
+.container h1{
+    font-size: 35px solid;
+}
+.container p{
+    font-size: 25px;
+    display: block;
+    margin: 20px auto 20px;
+    
+}
+.container input{
+    background-color: grey;
+}
+.container button{
+    color: maroon;
+    background-color: rgb(232, 198, 204);
+    margin: 10px 0 1px;
+    padding: 5px 50px;
+    font-size: 15px solid;
+}
+.guide{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    display: block;
+}
+.guide h2{
+    font-size: 30px;
+    margin: 10px auto 10px;
+    color: navy;
+}
+.guide p{
+    font-size: 20px;
+    margin : 30px auto 10px;
+    color: navy;
+}
+#result{
+    font-size: 55px;
+    color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: block;
+}
+#suggestion{
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    top: 49%;
+    left: 40%;
+    display: block;
+}
